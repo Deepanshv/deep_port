@@ -6,7 +6,7 @@ const Projects = () => {
       title: "Interactive Portfolio",
       description:
         "A React-based portfolio website with interactive UI and animations using Tailwind CSS and 3D elements.",
-      link: "https://your-portfolio-link.com",
+      link: "https://deepport-pz55mah2h-deepanshvs-projects.vercel.app",
     },
     {
       title: "HSR Motors Lead Management",
