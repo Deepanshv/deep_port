@@ -1,0 +1,27 @@
+/* Ensure body and html have a single scrollbar */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  width: 100%;
+}
+
+/* Prevent children from causing overflow */
+
+/* Optional: Debug overflow issues by highlighting overflowing elements */
+* {
+  box-sizing: border-box; /* Include padding and borders in width calculations */
+}
+
+.problematic-element {
+  overflow: hidden; /* Ensure specific problematic elements don't overflow */
+}
+
+/* Avoid vertical scrollbar issues with flex layouts */
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

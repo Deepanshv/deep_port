@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -35,4 +38,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+chatgpt-sidebar,
+chatgpt-sidebar-popups {
+  display: none !important;
 }
