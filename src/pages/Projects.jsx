@@ -17,14 +17,26 @@ const Projects = () => {
     {
       title: "WordPress Development Service - Codephine",
       description:
-        "Unlock the world of coding excellence with Codephine your go-to destination for top-notch tech services and seamless connectivity anytime, anywhere!",
+        "Unlock the world of coding excellence with Codephine—your go-to destination for top-notch tech services and seamless connectivity anytime, anywhere!",
       link: "https://codephine.com/",
     },
     {
-      title: "Crowed funding Website",
+      title: "Crowdfunding Website",
       description:
-        "Crowdfunding platform facilitating individual contributions and project funding.Implemented a user-friendly design for an enhanced user experience",
+        "Crowdfunding platform facilitating individual contributions and project funding. Implemented a user-friendly design for enhanced user experience.",
       link: "https://github.com/Deepanshv/Funding_p",
+    },
+    {
+      title: "Vishwakarma & Company Website",
+      description:
+        "Professional website built for a family-run interior design business to showcase their legacy and premium services. Modern layout, SEO, and live deployment included.",
+      link: "https://vishwakarma-and-company.vercel.app/",
+    },
+    {
+      title: "Project Tracker Web App",
+      description:
+        "A web-based project management tracker to log, monitor, and update task progress in real-time, built with React, Tailwind, and Firebase.",
+      link: "https://project-tracker-git-main-deepanshvs-projects.vercel.app",
     },
   ];
 
