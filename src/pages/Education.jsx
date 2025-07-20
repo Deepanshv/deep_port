@@ -8,23 +8,15 @@ const Education = () => {
       degree: "B.Tech in Computer Science",
       duration: "2021 - 2025",
       description:
-        "Pursuing a degree in Computer Science with a current CGPA of 7.7. Active participant in coding competitions and the head of the Codeluster tech community.",
+        "Pursuing a degree in Computer Science with a current CGPA of 7.86. Active participant in coding competitions and the Head of the Codeluster tech community.",
       icon: <FaUniversity size={30} />,
     },
-    // {
-    //   institution: "Senior Secondary School",
-    //   degree: "Higher Secondary Education",
-    //   duration: "2020 - 2021",
-    //   description:
-    //     "Specialized in Science with a focus on Mathematics and Computer Science.",
-    //   icon: <FaSchool size={30} />,
-    // },
     {
       institution: "Senior Secondary School",
       degree: "Higher Secondary Education",
       duration: "2020 - 2021",
       description:
-        "A top-performing student, specialized in Science with a focus on Mathematics, consistently achieved high marks throughout their academic career. With 94%",
+        "Top-performing student in Science stream with a focus on Mathematics and Computer Science. Scored 94.2% in Class 12th.",
       icon: <FaSchool size={30} />,
     },
     {
@@ -32,7 +24,7 @@ const Education = () => {
       degree: "High School Education",
       duration: "2018 - 2019",
       description:
-        "A tenth-grade student consistently excelled in science and displayed a remarkable aptitude for mathematics, achieving top marks in both subjects.\n with 94%",
+        "Excelled in Science and Mathematics with outstanding academic performance. Scored 94% in Class 10th.",
       icon: <FaSchool size={30} />,
     },
   ];
@@ -68,17 +60,14 @@ const Education = () => {
             className="flex items-start space-x-6"
             variants={itemVariants}
           >
-            {/* Icon */}
             <div className="flex-shrink-0 text-cyan-500">{edu.icon}</div>
 
-            {/* Education Info */}
             <div>
               <h3 className="text-xl font-semibold text-cyan-400">
                 {edu.institution}
               </h3>
               <p className="text-lg mt-1 text-gray-300">
-                <span className="font-semibold">{edu.degree}</span> -{" "}
-                {edu.duration}
+                <span className="font-semibold">{edu.degree}</span> — {edu.duration}
               </p>
               <p className="text-gray-400 mt-3">{edu.description}</p>
             </div>
