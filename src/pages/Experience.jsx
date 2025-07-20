@@ -5,7 +5,7 @@ const Experience = () => {
   const experienceItems = [
     {
       title: "Full Stack Developer Intern | Levent Analytics",
-      date: "July 2025 – Present",
+      date: "May 2025 – Present",
       description:
         "Building scalable full-stack features using React.js, Node.js, and Firebase. Enhancing user experience and working closely with the analytics team to develop real-time dashboards.",
       tasks: [
