@@ -14,7 +14,7 @@ const Hobbies = () => {
       </h2>
 
       {/* Cards Wrapper */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
         {/* Photography Card */}
         <motion.div
           className="hobby-card relative p-6 rounded-lg bg-gradient-to-b from-gray-800 to-black border border-transparent hover:border-cyan-500 hover:shadow-lg hover:scale-105 transition-all duration-500"
@@ -51,6 +51,19 @@ const Hobbies = () => {
           </h3>
           <p className="text-lg text-gray-400">
             Experimenting with flavors to create delightful dishes.
+          </p>
+        </motion.div>
+
+        {/* AI Tools Card */}
+        <motion.div
+          className="hobby-card relative p-6 rounded-lg bg-gradient-to-b from-gray-800 to-black border border-transparent hover:border-purple-500 hover:shadow-lg hover:scale-105 transition-all duration-500"
+          whileHover={{ y: -10 }}
+        >
+          <h3 className="text-2xl font-bold mb-4 text-gradient bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+            Exploring AI Tools
+          </h3>
+          <p className="text-lg text-gray-400">
+            Staying updated with the latest AI technologies and experimenting with tools like ChatGPT, Midjourney, and more.
           </p>
         </motion.div>
       </div>
