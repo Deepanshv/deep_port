@@ -29,14 +29,7 @@ const About = () => {
           className="text-lg leading-relaxed text-gray-300"
           variants={itemVariants}
         >
-          I am a passionate Computer Science undergraduate with a strong drive
-          to use technology to create innovative solutions. With skills in Web
-          Development, C++, SQL, and Graphic Design, I have hands-on experience
-          in building full-stack applications and managing WordPress projects.
-          As the head of my college's tech community, I thrive in leadership
-          roles and enjoy collaborating with creative minds. I'm always eager to
-          take on new challenges, learn new technologies, and contribute to
-          dynamic teams where I can make an impact.
+          I’m a recent Computer Science Engineering graduate (2025) passionate about building impactful digital experiences. With hands-on skills in Full Stack Development, C++, SQL, and Graphic Design, I’ve developed production-ready applications and led WordPress-based projects. As the head of my college's tech community, I’ve enjoyed leading initiatives, mentoring peers, and collaborating with creative teams. I'm excited to keep learning and contribute to forward-thinking development teams.
         </motion.p>
       </div>
 
@@ -52,12 +45,7 @@ const About = () => {
           className="text-lg leading-relaxed text-gray-300"
           variants={itemVariants}
         >
-          My journey in technology began with a curiosity about how things work,
-          leading me to study Computer Science. I took on leadership roles,
-          including heading my college's tech community, Codeluster, and
-          co-founding a web development service. Each experience has helped me
-          grow, and I’m excited to keep learning and contributing to new
-          projects.
+          My journey began with a curiosity about how technology powers the world. This led me to pursue Computer Science and take on various leadership roles — including heading Codeluster, my college’s tech community — and co-founding a web development service. Along the way, I’ve built real-world projects, collaborated in hackathons, and completed cloud and AI certifications. I’m excited to grow further in this ever-evolving field.
         </motion.p>
       </div>
 
@@ -70,8 +58,7 @@ const About = () => {
           <FaUserAlt className="text-5xl text-cyan-400 mx-auto" />
           <h4 className="text-xl font-semibold">Leadership</h4>
           <p className="text-gray-300">
-            Leading my college's tech community, organizing events, and
-            fostering collaboration among creative minds.
+            Led my college's tech community by organizing events, workshops, and fostering peer collaboration and learning.
           </p>
         </motion.div>
 
@@ -79,8 +66,7 @@ const About = () => {
           <FaCode className="text-5xl text-cyan-400 mx-auto" />
           <h4 className="text-xl font-semibold">Development</h4>
           <p className="text-gray-300">
-            Building web applications using modern technologies such as React,
-            WordPress, and more.
+            Built and deployed modern web applications using React, Node.js, WordPress, and full-stack technologies.
           </p>
         </motion.div>
 
@@ -88,8 +74,7 @@ const About = () => {
           <FaChalkboardTeacher className="text-5xl text-cyan-400 mx-auto" />
           <h4 className="text-xl font-semibold">Teaching & Mentoring</h4>
           <p className="text-gray-300">
-            Sharing my knowledge and experience with peers, mentoring them to
-            grow in their technical journeys.
+            Mentored peers and juniors by sharing technical knowledge, conducting sessions, and supporting project development.
           </p>
         </motion.div>
       </motion.div>
